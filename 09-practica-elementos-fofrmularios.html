@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios en HTML</title>
+</head>
+<body>
+   <h1>Formularios en HTML</h1>
+   <form action="#" method="get" name="FrmInicio" id="FrmInicio">
+       <label for="txtNombre">Nombre:</label>
+       <input type="text" name="txtNombre" id="txtNombre" required> 
+       <br>
+       <br>
+       <label for="txtApellido">Apellidos:</label>
+       <input type="text" name="txtApellido" id="txtApellido" required>
+       <br>
+       <br>
+       <label for="check1">
+           <input type="checkbox" name="check1" id="check1" value="op1">
+           Opcion 1
+        </label>
+       <input type="checkbox" name="check2" id="check3">opcion 2
+       <input type="checkbox" name="check3" id="check3">opcion 3
+       <br>
+       <br>
+       <label for="Masculino">
+           <input type="radio" name="Genero" id="Genero" value="M">
+           Masculino
+       </label>
+       
+        <label for="Femenino">
+           <input type="radio" name="Genero" id="Genero" value="F">
+           Femenino
+       </label>
+       <label>
+           <br>
+           <input type="datetime-local" name="fechahora" id="fechahora">
+           <br>
+           <input type="hidden" name="oculta" value="loquesea">
+           <br>
+           <input type="password" name="pwd" id="pwd">
+           <br>
+           <input type="email" name="correo" id="correo">
+           <br>
+           <input type="number" name="numero" id="numero">
+           <br>
+           <br>
+           <input type="reset" value="limpiar">
+           <br>
+           <input type="submit" value="Enviar formulario">
+       </label>
+        
+   </form>
+    
+</body>
+</html>
