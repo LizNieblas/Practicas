@@ -1,0 +1,15 @@
+
+body {
+   
+    
+}
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+    /* margin: 0;aplica a todos */
+    /* margin: 0 0;el primero aplica top-bottom y el segundo riht-left */
+    /* margin 0 0 0;top right-left bottom */
+    /* margin 0 0 0 0;top eight bottom left */
+    /* margin-top, margin-right, margin-bottom, margin-left */
+}
