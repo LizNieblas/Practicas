@@ -1,8 +1,9 @@
+/* *{
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10;
+}*/
 
-body {
-   
-    
-}
 
 .container {
     width: 920px;
@@ -13,3 +14,84 @@ body {
     /* margin 0 0 0 0;top eight bottom left */
     /* margin-top, margin-right, margin-bottom, margin-left */
 }
+
+#encabezado{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-content: center;
+    
+}
+#encabezado figure{
+    margin: 0;
+    
+}
+#titulos * {
+    margin: 0;
+}
+#encabezado h1{font-size: 1.2em;}
+#encabezado h2{font-size: 1em;}
+#encabezado h3{font-size: 0.9em;}
+#encabezado h4{font-size: 0.8em;}
+
+
+#menu{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+#menu li {
+    list-style-type: none;
+    padding: 0;
+}
+#menu>ul>li {
+    display: inline-block;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+}
+#menu>ul>li>a {
+    padding: 10px;
+    background-color: darkgray;
+}
+#menu li ul {
+    display: none;
+}
+#menu>ul>li>a:hover {
+    background-color: lightgray;
+    transition: 0.5s;
+}
+#contenido{
+    
+}
+#nota-importante{
+    height: 300px;
+    background-color: rgba(224, 163, 83, 0.53);
+    
+}
+#notas-secundarias{
+    height: 300px;
+    width: 700px;
+    background-color: rgba(64, 95, 95, 0.67);
+    display: inline-block;
+    float: left;
+}
+#publicidad{
+    height: 300px;
+    width: 220px;
+    background-color: rgba(70, 74, 181, 0.67);
+    display: inline-block;
+    float: right;
+    
+}
+#pie-pagina{
+    height: 150px;
+    background-color: rgba(185, 23, 129, 0.67);
+    clear: both;
+    
+}
+
