@@ -40,6 +40,8 @@
     height: 50px;
     display: flex;
     justify-content: center;
+    background-color: darkgray;
+    
     
 }
 #menu li {
@@ -65,12 +67,29 @@
     background-color: lightgray;
     transition: 0.5s;
 }
+#menu>ul {
+    padding: 0;
+}
 #contenido{
     
 }
+
+/* NOTA IMPORTANTE DE INICIO */
 #nota-importante{
-    height: 300px;
+    height: 360px;
     background-color: rgba(224, 163, 83, 0.53);
+    margin: 10px 0;
+    /* BOX SHADOW: HORIZONTAL  VERTICAL BLUR COLOR */
+    box-shadow: 0 0 15px darkgray; 
+    
+}
+
+#nota-importante figure{
+    margin: 0;
+}
+
+#nota-importante img{
+    border: 10px solid white;
     
 }
 #notas-secundarias{
