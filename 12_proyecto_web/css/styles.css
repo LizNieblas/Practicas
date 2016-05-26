@@ -8,6 +8,9 @@ h1,h2,h3,h4,h5,h6,figure,p{
     margin: 0;
     padding: 0;
 }
+.sombra-imagen{
+    box-shadow: 0 0 5px darkgray; 
+}
 
 .container {
     width: 920px;
@@ -106,25 +109,31 @@ h1,h2,h3,h4,h5,h6,figure,p{
 }
 #notas-secundarias article{
     display: flex;
+    background-image: url('../images/notas/separacion-notas/separacion-notas.png');/*aqui va la img de la sombra de abajo*/
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
    
 }
 .imagen-nota-secundaria{
     position: relative;
     
 }
-.titulo-nota-secundaria{
-    font-size: 1.7em;
+.titulo-nota-secundaria {
+    font-size: 1.6em;
     line-height: 0.9em;
     font-variant: small-caps;
 }
-.cuerpo-nota-secundaria{
+.cuerpo-nota-secundaria {
     padding-left: 20px;
-    padding-right: 10px;}
+    padding-right: 10px;
 }
-.intro-nota-secundaria{
+
+.intro-nota-secundaria {
     text-align: justify;
-    font-size: 1.1em;
-    margin: 10px 0;
+    
+    margin: 10px 0 !important;
 }
 .imagen-nota-secundaria span{
     position: absolute;
@@ -153,10 +162,12 @@ h1,h2,h3,h4,h5,h6,figure,p{
 #publicidad{
     height: 300px;
     width: 220px;
-    background-color: rgba(70, 74, 181, 0.67);
     display: inline-block;
     float: right;
     
+}
+#banners{
+    margin-top: 7px
 }
 #pie-pagina{
     height: 150px;
